@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fun With Text | Shubham Vandara</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="icon" href="https://i.ibb.co/mBqpwhV/sv-circle-logo.png" />
+  </head>
+  <body>
+    <div class="container">
+      <textarea
+        rows="3"
+        placeholder="Type something here.."
+        id="my-text-box"
+      ></textarea>
+      <div id="result">
+        Write Something And Press Any Of The Buttons Below To Get Started
+      </div>
+      <div class="buttons">
+        <button class="reverse">Reverse</button>
+        <button class="palindrome">Is Palindrome</button>
+      </div>
+      <div class="buttons">
+        <button class="chracter-count">Character Count</button>
+        <button class="word-count">Word Count</button>
+      </div>
+      <div class="search-container">
+        <input
+          type="text"
+          id="search-text"
+          placeholder="Type the word to be searched"
+        />
+        <button onclick="search()">Search</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

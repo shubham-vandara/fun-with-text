@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #0093E9;
+    background-image: linear-gradient(180deg, #0093E9 0%, #80D0C7 100%);
+
+}
+
+.container {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    background-color: #ffffff;
+    width: 80vmin;
+    padding: 2rem 2rem;
+    box-shadow: 0 1.25em 3em rgba(0, 0, 0, 0.18);
+    border-radius: 0.5em;
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 10px;
+    border: 1px solid #000c27;
+    border-radius: 5px;
+    outline: none;
+}
+
+textarea:focus {
+    background-color: #fafafa;
+}
+
+
+#result {
+    background: #f3f1f6;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 20px 10px;
+    margin: 1.5rem 0;
+    color: #000c27;
+    border-radius: 5px;
+}
+
+#result span {
+    font-weight: 500;
+    font-style: italic;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    width: 80%;
+    margin: 1.5rem auto;
+}
+
+.buttons button,
+.search-container button {
+    cursor: pointer;
+    background-color: #4175FC;
+    font-size: 1rem;
+    border: none;
+    width: 50%;
+    padding: 15px 20px;
+    color: #fff;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+
+.search-container {
+    width: 80%;
+    margin: 1.5rem auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.search-container input {
+    font-size: 1rem;
+    flex: 1;
+    padding: 10px;
+    border-radius: 0.3em;
+    border: 1px solid #000c27;
+    outline: none;
+}
+
+.search-container input:focus {
+    background-color: #fafafa;
+}
+
+.search-container button {
+    width: unset;
+    padding: 10px 20px;
+}
+
+button:hover {
+    background-color: #084AF3;
+}
+
+/* RESPOSIVE DESIGN */
+
+@media screen and (max-width: 650px) {
+    .buttons {
+        width: 100%;
+    }
+
+    .search-container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .search-container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .search-container button {
+        font-size: 1.2rem;
+        letter-spacing: 1px;
+    }
+}
