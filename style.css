@@ -118,13 +118,23 @@ button:hover {
 }
 
 @media screen and (max-width: 550px) {
+
+    .container {
+        width: 90vmin;
+    }
+
     .search-container {
         flex-direction: column;
         gap: 1rem;
     }
 
     .search-container button {
-        font-size: 1.2rem;
+        font-size: 1rem;
         letter-spacing: 1px;
+    }
+
+    #result,
+    .buttons button {
+        font-size: 0.8rem;
     }
 }
