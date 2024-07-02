@@ -11,7 +11,7 @@
 
 ## View the Website
 
-Visit the Fun With Text website hosted on GitHub Pages by following this link: [Fun With Text](https://shubham-vandara.github.io/Fun-With-Text/). This allows you to experience the website's features and layout directly in your browser.
+Visit the Fun With Text website hosted on GitHub Pages by following this link: [Fun With Text](https://shubham-vandara.github.io/fun-with-text/). This allows you to experience the website's features and layout directly in your browser.
 
 ## Contributing
 Contributions to improve the Fun With Text are welcome! Please fork the repository, make your changes, and open a pull request.
@@ -26,4 +26,4 @@ To explore the code or contribute to the project, clone the repository to your l
 2. Run the following command to clone the repository:
 
    ```bash
-   git clone https://github.com/shubham-vandara/Fun-With-Text.git
+   git clone https://github.com/shubham-vandara/fun-with-text.git
